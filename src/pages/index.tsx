@@ -10,61 +10,20 @@ const listItem = [
         title={"123"}
         href={"#"}
     ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"123444"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"Hello worlds"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"123444"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"Hello worlds"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"123444"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"Hello worlds"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"123444"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"Hello worlds"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"123444"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
-    <ProductSortDescriptionComponent
-        key={uuidv4()}
-        title={"Hello worlds"}
-        href={"#"}
-    ></ProductSortDescriptionComponent>,
 ];
 
 const HomePage = () => {
-    return <GridLayout children={listItem}></GridLayout>;
+    return (
+        <GridLayout>
+            <Grid.Col md={4} lg={3} sm={6} key={uuidv4()}>
+                <ProductSortDescriptionComponent
+                    key={uuidv4()}
+                    title={"123"}
+                    href={"#"}
+                ></ProductSortDescriptionComponent>
+            </Grid.Col>
+        </GridLayout>
+    );
 };
 
 export default HomePage;

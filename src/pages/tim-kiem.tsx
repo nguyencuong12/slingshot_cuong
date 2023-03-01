@@ -14,11 +14,13 @@ const SearchPage = () => {
     }, [keywords]);
     return (
         <div>
-            {dataResponse.title == "" ? (
-                <Blockquote cite="–mywebsite.com">Don't Find !!!.</Blockquote>
+            {/* {dataResponse.title == "" ? (
+                <div>DON'T FIND</div>
             ) : (
-                <Blockquote cite="–mywebsite.com">This is result !!!.</Blockquote>
-            )}
+                // <Blockquote cite="–mywebsite.com">Don't Find !!!.</Blockquote>
+                <div>FIND</div>
+                // <Blockquote cite="–mywebsite.com">This is result !!!.</Blockquote>
+            )} */}
             <p>Keywords Search:{keywords}</p>
         </div>
     );
