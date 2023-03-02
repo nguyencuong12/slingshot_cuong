@@ -33,8 +33,6 @@ const ProductSortDescriptionComponent = ({ title, image, price }: productProps) 
                 title={`You&apos;ve won a million dollars in cash!`}
                 color={"red"}
             ></TextComponent>
-
-            {/* <Text weight={600} size="xs" mt="md" color={"red"}></Text> */}
         </Card>
     );
 };

@@ -10,7 +10,7 @@ const ComboComponent = () => {
                 <Grid.Col md={4} lg={3} sm={6} key={uuidv4()}>
                     <ProductSortDescriptionComponent
                         key={uuidv4()}
-                        title={"123"}
+                        title={"This is COMBO"}
                         href={"#"}
                     ></ProductSortDescriptionComponent>
                 </Grid.Col>
