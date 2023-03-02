@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { MantineProvider } from "@mantine/core";
 import SideLayout from "@/layout/sideLayout";
-// import FacebookChatMessager from "@/layout/facebookChatMessager";
+import FacebookChatMessager from "@/layout/facebookChatMessager";
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 },
             }}
         >
-            {/* <FacebookChatMessager></FacebookChatMessager> */}
+            <FacebookChatMessager></FacebookChatMessager>
             <SideLayout>
                 <Component {...pageProps} />
             </SideLayout>
