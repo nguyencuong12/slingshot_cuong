@@ -6,7 +6,7 @@ const FacebookChatMessager = () => {
         <div>
             <div id="fb-root"></div>
             <div id="fb-customer-chat" className="fb-customerchat"></div>
-            <Script strategy="lazyOnload">
+            <Script strategy="lazyOnload" id="facebook-messager">
                 {`
               var chatbox = document.getElementById('fb-customer-chat');
               chatbox.setAttribute("page_id", "103186962720276");
