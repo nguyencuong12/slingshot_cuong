@@ -58,4 +58,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 [ID] 6537522132943910
 
 [POST] SEND MESSAGE :
-https://graph.facebook.com/v16.0/103186962720276/messages?recipient={"id":"6537522132943910"}&message={"text":"This is text send from postman"}&messaging_type=RESPONSE&access_token=EAAIjLTCNhoEBAOXcHJfLYfzbim6aczKGWYX8KvZCNxkdksDNN2EUuk1r79AEhyZAiZCwWUahkxU6Y3jVa16Dhp0JrsNdqmX4mdNcfu7xKhq17nXfyZC2rYkykl54p6iyQaRRqHMViTsXl5elZA26fE8sAYZAjDeyYltF32oFLYDWfluhVtZAgW98wExNGtjI7EYgxZCSaoYKukIoC27pbRkT
+https://graph.facebook.com/v16.0/103186962720276/messages?recipient={"id":"6537522132943910"}&message={"text":"This is text send from postman"}&messaging_type=RESPONSE&access_token=EAAIjLTCNhoEBAH34vyK8HKyaieGDpSKdUfNaIvTMOD6jDZBMJSww5ZCZAAh1rjZAKLIbTlaZCTJRH7ZBZCUMaRHZAFHbDcfFeNbWkVp1fnUoQQeJwENhrJOdzAWUM6gfdhVRp8MGuxq7ZAaoHE1R4vzwNA7eUKlgx2xKiuWV4a1Q7HIhFxQimZBzuPue0RWgXcxOCNnvJZAiMOZCsmhfuO4FH6ch
