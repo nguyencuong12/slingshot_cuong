@@ -20,7 +20,6 @@ const ProductFullDescription = ({
 }: productProps) => {
   const [opened, setOpened] = useState(false);
   const [amount, setAmount] = useState(1);
-  useState(false);
   const handleSubtractAmount = () => {
     if (amount > 1) {
       setAmount(amount - 1);
@@ -48,7 +47,6 @@ const ProductFullDescription = ({
             <Title order={4}>{title}</Title>
             <Flex>
               <div>Giá :</div>
-
               <CurrencyFormat
                 style={{ color: "red" }}
                 displayType="text"
