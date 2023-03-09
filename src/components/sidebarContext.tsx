@@ -3,17 +3,10 @@ import {
   SidebarContentFromCategory,
   SidebarContent,
 } from "@/utils/sidebarContent";
-import {
-  Accordion,
-  Avatar,
-  Divider,
-  Group,
-  NavLink,
-  ScrollArea,
-} from "@mantine/core";
+import { Accordion, Avatar, Divider, Group, NavLink } from "@mantine/core";
 import Link from "next/link";
 import TextComponent from "./text";
-import { Divide, Eye } from "react-feather";
+import { Eye } from "react-feather";
 
 const SidebarContext = () => {
   interface AccordionLabelProps {

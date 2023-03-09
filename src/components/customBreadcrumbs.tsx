@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { Breadcrumbs, Anchor } from "@mantine/core";
+import { Breadcrumbs } from "@mantine/core";
 import Link from "next/link";
 const CustomBreadCums = () => {
   const router = useRouter();

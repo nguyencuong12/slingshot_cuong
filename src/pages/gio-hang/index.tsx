@@ -68,11 +68,11 @@ const YourCart = () => {
         </thead>
         <tbody>{rows}</tbody>
       </Table>
-      {/* <ProductFullDescription
-        title="ss"
-        price={100000}
-        description="description"
-      ></ProductFullDescription> */}
+      <ProductFullDescription
+        title="This is test product"
+        price={1000000}
+        description="This is test description"
+      ></ProductFullDescription>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CurrencyFormat from "react-currency-format";
-import { Grid, Title, Flex, Button, Modal } from "@mantine/core";
+import { Grid, Title, Flex, Button, Modal, Image } from "@mantine/core";
 import TextComponent from "./text";
 import { ShoppingBag } from "react-feather";
 import { FacebookAPI } from "@/api/facebook";
@@ -38,11 +38,16 @@ const ProductFullDescription = ({
       >
         <div style={{ textAlign: "center" }}>Order Success</div>
       </Modal>
-      <Grid gutter={5}>
-        <Grid.Col lg={4} sm={6}>
-          12321
+      <Grid gutter={5} mt={20}>
+        <Grid.Col lg={4} sm={6} pl={5}>
+          <Image
+            height={400}
+            radius="md"
+            src="https://image.winudf.com/v2/image1/Y29tLmNvbWJvYXBwZGVsaXZlcnkuYXBwX3NjcmVlbl8wXzE1OTk5MTgyNDRfMDE5/screen-0.jpg?fakeurl=1&type=.webp"
+            alt="Random image"
+          />
         </Grid.Col>
-        <Grid.Col lg={8} sm={6}>
+        <Grid.Col lg={8} sm={6} pl={10}>
           <Flex direction={"column"} gap={10}>
             <Title order={4}>{title}</Title>
             <Flex>

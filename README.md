@@ -26,8 +26,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
@@ -46,5 +46,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 [POST] me/messages
 [Params]
 
--   recipient:{id:""}
--   message:{"text":"This is content "}
+- recipient:{id:""}
+- message:{"text":"This is content "}
+
+[GET] get ID Conversation
+
+- https://graph.facebook.com/103186962720276/conversations/
+  ?fields=participants
+  &access_token=EAAIjLTCNhoEBAOXcHJfLYfzbim6aczKGWYX8KvZCNxkdksDNN2EUuk1r79AEhyZAiZCwWUahkxU6Y3jVa16Dhp0JrsNdqmX4mdNcfu7xKhq17nXfyZC2rYkykl54p6iyQaRRqHMViTsXl5elZA26fE8sAYZAjDeyYltF32oFLYDWfluhVtZAgW98wExNGtjI7EYgxZCSaoYKukIoC27pbRkT
+
+[ID] 6537522132943910
+
+[POST] SEND MESSAGE :
+https://graph.facebook.com/v16.0/103186962720276/messages?recipient={"id":"6537522132943910"}&message={"text":"This is text send from postman"}&messaging_type=RESPONSE&access_token=EAAIjLTCNhoEBAOXcHJfLYfzbim6aczKGWYX8KvZCNxkdksDNN2EUuk1r79AEhyZAiZCwWUahkxU6Y3jVa16Dhp0JrsNdqmX4mdNcfu7xKhq17nXfyZC2rYkykl54p6iyQaRRqHMViTsXl5elZA26fE8sAYZAjDeyYltF32oFLYDWfluhVtZAgW98wExNGtjI7EYgxZCSaoYKukIoC27pbRkT
