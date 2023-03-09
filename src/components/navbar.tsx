@@ -49,7 +49,7 @@ const NavbarComponent = () => {
           align="flex-start"
           direction="row"
         >
-          <MediaQuery largerThan="xs" styles={{ display: "none" }}>
+          <MediaQuery largerThan="md" styles={{ display: "none" }}>
             <Burger
               size={"sm"}
               opened={openNav}
